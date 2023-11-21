@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font;
+    src: url(forgotten\ futurist\ rg.otf);
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.loader {
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.loader h1{
+    color: grey;
+    text-shadow: grey 0px -5px -5px inset;
+    font-size: 9rem;
+    font-family: font;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: red;
+}
