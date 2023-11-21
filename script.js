@@ -24,9 +24,7 @@ function loader() {
             document.querySelector(".loader h1").innerHTML = num + "%";
         }
     }, 150)
-}
-
-loader();
+};
 
 
 
