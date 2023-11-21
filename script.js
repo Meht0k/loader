@@ -1,4 +1,4 @@
-// var tl = gsap.timeline();
+var tl = gsap.timeline();
 function loader() {
     var num = 0;
     setInterval(function () {
@@ -13,15 +13,14 @@ function loader() {
 };
 
 
-gsap.to('.loader h1', {
-    scale: 1.1,
-    // delay:.5,
+tl.to('.loader h1', {
     duration: 1,
     onStart: loader()
 })
 
-gsap.to('.loader', {
+tl.to('.loader', {
     top: "-100vh",
+    delay:.5,
     duration: 2,
 })
 
