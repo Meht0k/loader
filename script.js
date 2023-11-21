@@ -1,4 +1,16 @@
 // var tl = gsap.timeline();
+function loader() {
+    var num = 0;
+    setInterval(function () {
+        num = num + Math.floor(Math.random() * 20);
+        if (num < 100) {
+            document.querySelector(".loader h1").innerHTML = num + "%";
+        } else {
+            num = 100;
+            document.querySelector(".loader h1").innerHTML = num + "%";
+        }
+    }, 150)
+};
 
 
 gsap.to('.loader h1', {
@@ -13,18 +25,6 @@ gsap.to('.loader', {
     duration: 2,
 })
 
-function loader() {
-    var num = 0;
-    setInterval(function () {
-        num = num + Math.floor(Math.random() * 20);
-        if (num < 100) {
-            document.querySelector(".loader h1").innerHTML = num + "%";
-        } else {
-            num = 100;
-            document.querySelector(".loader h1").innerHTML = num + "%";
-        }
-    }, 150)
-};
 
 
 
