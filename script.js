@@ -9,7 +9,7 @@ function loader() {
             num = 100;
             document.querySelector(".loader h1").innerHTML = num + "%";
         }
-    }, 150)
+    }, 100)
 };
 
 
