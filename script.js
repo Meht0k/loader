@@ -10,7 +10,7 @@ gsap.to('.loader h1', {
 
 gsap.to('.loader', {
     top: "-100vh",
-    delay: 2.2,
+    // delay: 2.2,
     duration: 2,
 })
 
