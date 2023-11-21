@@ -5,7 +5,7 @@ gsap.to('.loader h1', {
     scale: 1.1,
     // delay:.5,
     duration: 1,
-    onStart: loader("")
+    onStart: loader()
 })
 
 gsap.to('.loader', {
