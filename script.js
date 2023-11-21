@@ -20,7 +20,7 @@ tl.to('.loader h1', {
 
 tl.to('.loader', {
     top: "-100vh",
-    delay:.5,
+    delay: 2,
     duration: 2,
 })
 
